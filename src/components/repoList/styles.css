@@ -1,0 +1,53 @@
+.list-container {
+  display: flex;
+  flex-direction: column;
+}
+
+
+  .list-container .repo-container {
+    flex-direction: column;
+    display: flex;
+    padding: 20px 0;
+    border-top: .02px solid #BBB;
+  }
+
+  .list-container .repo-container .repo-title {
+    color: #0366D6;
+    font-size: 19px;
+    font-weight: 600;
+    margin-bottom: 10px;
+  }
+
+  .list-container .repo-container .repo-description {
+    color: #555;
+    font-size: 15px;
+  }
+
+  .list-container .repo-container .repo-footer {
+    display: flex;
+    margin-top: 10px;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 20px;
+  }
+
+  .list-container .repo-container .repo-footer .repo-language-container {
+    display: flex;
+    align-items: center;
+  }
+
+  .list-container .repo-container .repo-footer .repo-language-container .repo-language {
+    color: #555;
+    font-size: 14px;
+    margin-right: 10px;
+  }
+
+  .list-container .repo-container .repo-footer .repo-language-container .repo-language-icon {
+    font-size: 14px;
+    margin-right: 3px;
+  }
+
+  .list-container .repo-container .repo-footer .repo-updated {
+    color: #555;
+    font-size: 14px;
+  }

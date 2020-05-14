@@ -1,0 +1,85 @@
+.header {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 8px 15px;
+  width: 100%;
+  background: #24292E;
+  justify-content: space-between;
+}
+
+.header .headerLeft {
+  display: flex;
+  background: #24292E;
+  align-items: center;
+}
+
+.header .headerLeft .header-button {
+  padding: 0;
+  background: #24292E;
+  outline: none;
+  cursor: pointer;
+}
+
+
+.header .headerLeft .header-button .header-logo{
+  width: 32px;
+  background-color: #24292E;
+  transition: opacity 0.1s;
+}
+
+.header .headerLeft .header-button .header-logo:hover {
+  opacity: 0.7;
+}
+
+.header .headerLeft .header-input {
+  margin-left: 15px;
+  background-color: #444655;
+  border-radius: 4px;
+  outline: none;
+  height: 28px;
+  width: 273px;
+  border: 0px transparent;
+  padding: 0 10px;
+  font-weight: bold;
+  font-size: 13px;
+  color: #000;
+  transition: width 0.2s;
+}
+
+.header .headerLeft .header-input:focus {
+  background: #FFF;
+  width: 470px;
+}
+
+.header .headerLeft .header-span {
+  background: #24292E;
+  color: #FFF;
+  font-size: 14px;
+  font-weight: 600;
+  margin-left: 15px;
+  cursor: pointer;
+  transition: opacity 0.1s;
+}
+
+.header .headerLeft .header-span:hover{
+  opacity: 0.8;
+}
+
+.header .headerRight {
+  display: flex;
+  align-items: center;
+  background: #24292E;
+}
+
+.header .headerRight .icon-button {
+  background: #24292E;
+  color: #FFF;
+  font-size: 20px;
+  margin-left: 10px;
+  cursor: pointer;
+  transition: opacity 0.1s;
+}
+
+.header .headerRight .icon-button:hover {
+  opacity: 0.8;
+}

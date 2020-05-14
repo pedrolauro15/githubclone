@@ -1,0 +1,48 @@
+.footer {
+  display: flex;
+  margin-top: 40px;
+  margin-bottom: 40px;
+  justify-content: space-between;
+}
+
+.footer .left {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.footer .left .corp {
+  font-size: 12px;
+  color: #666;
+  margin-right: 10px;
+}
+
+.footer div .link {
+  color: #0366D6;
+  font-size: 12px;
+  margin-right: 20px;
+  cursor: pointer;
+  transition: opacity 0.2s;
+}
+
+.footer div .link:hover {
+  opacity: 0.8;
+}
+
+.footer .center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.footer .center .icon {
+  background: transparent;
+  color: #AAA;
+  font-size: 25px;
+}
+
+.footer .right {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

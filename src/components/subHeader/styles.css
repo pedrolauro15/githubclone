@@ -1,0 +1,39 @@
+.subHeader {
+  display: flex;
+}
+
+.subHeader .user-img {
+  width: 100px;
+  height: 100px;
+}
+
+.subHeader .sub-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  margin-left: 15px;
+  flex-wrap: wrap;
+}
+
+.subHeader .sub-container .title {
+  font-size: 20px;
+}
+
+.subHeader .sub-container .info-container {
+  display: flex;
+  align-items: center;
+}
+
+.subHeader .sub-container .info-container .info-item {
+  display: flex;
+  align-items: center;
+  margin-right: 20px;
+}
+
+.subHeader .sub-container .info-container .info-item .info-title {
+  font-size: 12px;
+  color: #444;
+  font-weight: 200;
+  text-align: center;
+  margin-left: 2px;
+}
