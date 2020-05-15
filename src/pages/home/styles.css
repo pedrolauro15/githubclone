@@ -4,10 +4,26 @@
   align-items: center;
 }
 
+.home .top-container {
+  box-sizing: border-box;
+  width: 100%;
+  padding: 20px 12.5% 0 12.5%;
+  border-bottom: 1px solid #E0E0E0;
+  background: #f4f4f4;
+}
+
 .home .home-box {
   display: flex;
-  min-width: 500px;
+  min-width: 300px;
   width: 75%;
   flex-direction: column;
   padding: 20px 0;
 }
+
+.home .home-box .home-grid {
+  display: grid;
+  grid-template-columns: 3fr 1fr;
+  grid-gap: 15px;
+  margin-top: 25px;
+}
+

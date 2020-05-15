@@ -1,5 +1,6 @@
 .subHeader {
   display: flex;
+  background: #F4F4F4;
 }
 
 .subHeader .user-img {
@@ -9,6 +10,7 @@
 
 .subHeader .sub-container {
   display: flex;
+  background: #F4F4F4;
   flex-direction: column;
   justify-content: space-around;
   margin-left: 15px;
@@ -16,24 +18,33 @@
 }
 
 .subHeader .sub-container .title {
+  background: #F4F4F4;
   font-size: 20px;
 }
 
 .subHeader .sub-container .info-container {
   display: flex;
+  background: #F4F4F4;
   align-items: center;
 }
 
 .subHeader .sub-container .info-container .info-item {
   display: flex;
+  background: #F4F4F4;
   align-items: center;
   margin-right: 20px;
 }
 
+.subHeader .sub-container .info-container .info-item .info-icon {
+  background: #F4F4F4;
+}
+
 .subHeader .sub-container .info-container .info-item .info-title {
   font-size: 12px;
+  background: #F4F4F4;
   color: #444;
   font-weight: 200;
   text-align: center;
   margin-left: 2px;
 }
+

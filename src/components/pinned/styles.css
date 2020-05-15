@@ -1,0 +1,67 @@
+.pinned {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 25px;
+}
+
+.pinned .pinned-title {
+  margin-bottom: 20px;
+  font-size: 15px;
+}
+
+.pinned .pinned-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-gap: 20px;
+}
+
+.pinned .pinned-container .pinned-box {
+  display: flex;
+  flex-direction: column;
+  border: 1px solid #CCC;
+  border-radius: 4px;
+  padding: 12px;
+  justify-content: space-between;
+}
+
+.pinned .pinned-container .pinned-box .box-header {
+  display: flex;
+  margin-bottom: 10px;
+  align-items: center;
+  color: #0366D6;
+  font-size: 14px;
+  font-weight: 600;
+}
+
+.pinned .pinned-container .pinned-box .box-header .pinned-icon {
+  color: #333;
+  margin-right: 6px;
+  font-size: 15px;
+}
+
+.pinned .pinned-container .pinned-box .pinned-description {
+  color:#555;
+  font-size: 13px;;
+}
+
+.pinned .pinned-container .pinned-box .pinned-footer {
+  display: flex;
+  margin-top: 15px;
+  align-items: center;
+}
+
+.pinned .pinned-container .pinned-box .pinned-footer .pinned-item {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-right: 12px;
+}
+
+.pinned .pinned-container .pinned-box .pinned-footer .pinned-item .pinned-icon {
+  font-size: 17px;
+  margin-right: 2px;
+  color: #666;
+}
+.pinned .pinned-container .pinned-box .pinned-footer .pinned-item .pinned-foot {
+  font-size: 12px;
+}

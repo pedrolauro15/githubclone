@@ -1,26 +1,46 @@
 .infoBar {
   display: flex;
-  border-bottom: solid 0.08px #666;
-  padding: 10px;
   margin-top: 20px;
-  margin-bottom: 20px;
+  align-items: center;
+  background: #F4F4F4;
 }
 
 .infoBar .item {
   display: flex;
+  background: #F4F4F4;
   align-items: center;
   margin-right: 10px;
   cursor: pointer;
+  border-top: 3px solid transparent;
+  padding: 6px 8px 10px 8px;;
+}
+
+.infoBar .selected {
+  border-top: 3px solid #E36209;
+  border-left: 0.5px solid #CCC;
+  border-right: 0.5px solid #CCC;
+  background: white;
+}
+
+.infoBar .sel {
+  background: #FFF;
 }
 
 .infoBar .item .icon {
-  font-size: 20px;
-  color: #777
+  background: #F4F4F4;
+  font-size: 18px;
+  color: #AAA
 }
 
 .infoBar .item .item-title{
-  font-weight: bold;
+  background: #F4F4F4;
+  font-weight: 100;
   font-size: 13.5px;
   color: #777;
   margin-left: 5px;
+}
+
+.infoBar .item .bold {
+  font-weight: bold;
+  color: #666;
 }

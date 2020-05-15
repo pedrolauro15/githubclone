@@ -1,6 +1,7 @@
 import React from 'react';
 import { IoMdNotifications } from 'react-icons/io'
-import { AiOutlinePlus, AiOutlineUser } from 'react-icons/ai';
+import { AiOutlinePlus } from 'react-icons/ai';
+import { MdArrowDropDown } from 'react-icons/md';
 import logo from '../../assets/logo.png'
 
 import './styles.css';
@@ -33,12 +34,28 @@ function Header() {
         <IoMdNotifications 
           className="icon-button"
         />
-        <AiOutlinePlus
-          className="icon-button"
-        />
-        <AiOutlineUser
-          className="icon-button"
-        />
+
+        <div className="row-item">
+          <AiOutlinePlus
+            className="icon-button"
+            style={{marginRight: -3}}
+          />
+
+          <MdArrowDropDown
+            className="user-arrow"
+          />
+        </div>
+        
+        <div className="row-item">
+          <img
+            src={"https://avatars3.githubusercontent.com/u/44732156?s=88&v=4"}
+            alt="pic.png"
+            className="user-picture"
+          />
+          <MdArrowDropDown
+            className="user-arrow"
+          />
+        </div>
       </div>
     </div>
   );

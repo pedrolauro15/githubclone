@@ -6,11 +6,12 @@ import './styles.css';
 function InfoBar() {
   return(
     <div className="infoBar">
-      <div className="item">
+      <div className="item selected">
         <GoRepo
           className="icon"
+          style={{background: "#FFF"}}
         />
-        <span className="item-title">Repositories</span>
+        <span className="item-title bold" style={{background: "#FFF"}}>Repositories</span>
       </div>
 
       <div className="item">

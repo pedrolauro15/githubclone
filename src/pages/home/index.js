@@ -4,9 +4,11 @@ import { useParams } from 'react-router-dom';
 
 import Header from '../../components/header';
 import SubHeader from '../../components/subHeader';
-import CustomSearch from '../../components/customSearch';
 import InfoBar from '../../components/infoBar';
+import Pinned from '../../components/pinned';
+import CustomSearch from '../../components/customSearch';
 import RepoList from '../../components/repoList';
+import HomeRight from '../../components/homeRight';
 import Footer from '../../components/footer';
 import './styles.css';
 
@@ -29,8 +31,9 @@ export default function Home() {
 
   return(
     <div className="home">
-      <Header/>
-      <div className="home-box">
+      <Header />
+
+      <div className="top-container">
         <SubHeader 
           imageUrl={data.avatar_url}
           name={data.name}
@@ -38,13 +41,24 @@ export default function Home() {
           site={data.blog}
           email={data.email}
         />
-        <InfoBar />
+        <InfoBar 
+          repos={data}
+        />
+      </div>
+
+      <div className="home-box">
+        <Pinned 
+          repo={repo}
+        />
 
         <CustomSearch />
 
-        <RepoList
-          url={repo}
-        />
+        <div className="home-grid">
+          <RepoList
+            url={repo}
+          />
+          <HomeRight />
+        </div>
 
         <Footer />
       </div>

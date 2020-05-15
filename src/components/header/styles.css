@@ -83,3 +83,23 @@
 .header .headerRight .icon-button:hover {
   opacity: 0.8;
 }
+
+.header .headerRight .row-item {
+  display: flex;
+  align-items: center;
+  background: #24292E;
+}
+
+.header .headerRight .row-item .user-picture {
+  cursor: pointer;
+  margin-left: 10px;
+  width: 20px;
+  height: 20px;
+  border-radius: 2px;
+}
+
+.header .headerRight .row-item .user-arrow {
+  background: #24292E;
+  color: #FFF;
+  font-size: 19px;
+}

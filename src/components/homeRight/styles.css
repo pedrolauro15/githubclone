@@ -1,0 +1,67 @@
+.grid-right {
+  display: flex;
+  flex-direction: column;
+
+}
+
+.grid-right .grid-box {
+  display: flex;
+  flex-direction: column;
+  padding: 15px;
+  border: 1px solid #CCC;
+  border-radius: 4px;
+  margin-bottom: 20px;
+}
+
+.grid-right .grid-box .grid-title {
+  color: #666;
+  margin-bottom: 20px;
+}
+
+.grid-right .grid-box .grid-item-container {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.grid-right .grid-box .grid-item-container .grid-item {
+  display: flex;
+  align-items: center;
+  margin-right: 15px;
+  margin-bottom: 10px;
+}
+
+.grid-right .grid-box .grid-item-container .grid-item .grid-item-title {
+  font-size: 14px;
+  color: #666;
+  margin-left: 3px;
+}
+
+.grid-right .grid-box .grid-item-container .grid-item .grid-icon {
+  font-size: 14px;
+}
+
+.grid-right .grid-box .grid-item-container .topic-button {
+  padding: 5px 15px;
+  border-radius: 4px;
+  background: #0366D611;
+  color: #0366D6;
+  font-size: 14px;
+  cursor: pointer;
+  margin-bottom: 10px;
+  margin-right: 10px;
+}
+
+.grid-right .grid-box .grid-item-container .topic-button:hover {
+  background: #0366D622;
+}
+
+.grid-right .report {
+  font-size: 12px;
+  font-weight: 100;
+  cursor: pointer;
+}
+
+.grid-right .report:hover {
+  color: #0366D6;
+  text-decoration: underline;
+}
