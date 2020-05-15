@@ -22,11 +22,21 @@
 }
 
 .custom-search .custom-button {
+  display: flex;
   margin-right: 6px;
   border-radius: 4px;
   padding: 0 10px;
   cursor: pointer;
   outline: none;
+  align-items: center;
+  justify-content: space-between;
   border: 1px solid #BBB;
   color: #555; 
+  background: #FCFCFC;
+  transition: background 0.2s;
+}
+
+.custom-search .custom-button:hover {
+  border-color: #333;
+  background: #EEE;
 }

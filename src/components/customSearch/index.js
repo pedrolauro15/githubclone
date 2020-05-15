@@ -1,4 +1,5 @@
 import React from 'react';
+import { IoMdArrowDropdown } from 'react-icons/io';
 
 import './styles.css';
 
@@ -10,8 +11,15 @@ function CustomSearch() {
         placeholder="Find a repository..."
       />
 
-      <button className="custom-button">Type: All</button>
-      <button className="custom-button">Language: All</button>
+      <button className="custom-button">
+        Type: <strong style={{marginLeft: 5}}>All</strong>
+        <IoMdArrowDropdown size={16}/>
+      </button>
+
+      <button className="custom-button">
+        Language: <strong style={{marginLeft: 5}}>All</strong>
+        <IoMdArrowDropdown size={16}/>
+      </button>
     </div>
   );
 }
